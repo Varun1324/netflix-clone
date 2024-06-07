@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signin-cont{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin-title{
+    font-family: Bebas Neue;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.sub-cont{
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#signin{
+    font-size: 5.5vmin;
+    color: white;
+    font-family: lato;
+}
+.div-2, .div-3{
+    display: flex;
+    line-height: 28px;
+    gap: 20px;
+}
+.signin-email-input{
+    font-size: medium;
+    color: white;
+    height: 45px;
+    outline: none;
+    border: 0;
+    width: auto;
+    background-color: transparent;
+}
+.signin-password-input{
+    font-size: medium;
+    color: white;
+    height: 45px;
+    outline: none;
+    border: 0;
+    width: auto;
+    background-color: transparent;
+}
+#signin-btn-2{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-family: Poppins;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.div-5{
+    color: white;
+    font-family: Poppins;
+    font-weight: bolder;
+}
+.div-6 a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+.div-6 a:hover{
+    text-decoration: underline;
+}
+.div-7{
+    font-weight:lighter;
+    font-family: Lato;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+.div-7 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.div-7 a:hover{
+    text-decoration: underline;
+
+}
+#signin-btn-2:hover{
+    border: 1px solid wheat;
+}
+#lst{
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: Lato;
+}
