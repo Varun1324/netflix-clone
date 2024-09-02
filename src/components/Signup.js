@@ -19,7 +19,7 @@ function Signup() {
       e.preventDefault();
       console.log(userSignupDetails);
       try{
-        const response=await fetch("https://backend-server-pugh.onrender.com/api/signup",{
+        const response=await fetch("http://localhost:3000/api/signup/",{
           method:"POST",
           headers:{'Content-Type':'application/json'},
           body:JSON.stringify(userSignupDetails)
@@ -73,7 +73,7 @@ function Signup() {
           </div>
           
           <div className="cont7">
-            <button id='signup-btn-2'>Sign Up</button>
+            <button id='signup-btn-2' type='submit'>Sign Up</button>
           </div>
           <div className="cont8">
             <span id="already">Already have an account! <button onClick={signinhandler} className="log" id="lst2">Log in</button></span>
